@@ -37,6 +37,9 @@ Test for working JavaScript / etc
 
 https://github.com/GoogleChrome/puppeteer or node.js
 
+Test for broken links
+~~~~~~~~~~~~~~~~~~~~~
+
 [id="coverage"]
 Coverage:
 ---------
