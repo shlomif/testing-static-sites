@@ -40,6 +40,16 @@ https://github.com/GoogleChrome/puppeteer or node.js
 Test for broken links
 ~~~~~~~~~~~~~~~~~~~~~
 
+Test for case insensitive filename collissions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+https://metacpan.org/pod/Test::File::Find::CaseCollide and https://github.com/shlomif/cookiecutter--shlomif-latemp-sites/blob/master/%7B%7Bcookiecutter.project_slug%7D%7D/Tests/case-insense-file-collision.t .
+
+Autoformatting / linting
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+https://en.wikipedia.org/wiki/Lint_(software) and https://metacpan.org/pod/distribution/Code-TidyAll/bin/tidyall .
+
 [id="coverage"]
 Coverage:
 ---------
