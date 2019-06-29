@@ -24,6 +24,8 @@ Test that the site builds
 Test for valid markup
 ~~~~~~~~~~~~~~~~~~~~~
 
+https://github.com/shlomif/python-vnu_validator , https://www.shlomifish.org/philosophy/computers/web/validate-your-html/ .
+
 Test for proper spelling and grammar
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -40,6 +42,8 @@ https://github.com/GoogleChrome/puppeteer or node.js
 Test for broken links
 ~~~~~~~~~~~~~~~~~~~~~
 
+https://wummel.github.io/linkchecker/ , https://metacpan.org/pod/distribution/WWW-LinkChecker-Internal/scripts/link-checker .
+
 Test for case insensitive filename collissions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -54,6 +58,4 @@ https://en.wikipedia.org/wiki/Lint_(software) and https://metacpan.org/pod/distr
 Coverage:
 ---------
 
-* https://www.reddit.com/r/freebsd/comments/9ncmrs/what_i_learned_from_porting_my_projects_to_freebsd/[On the /r/freebsd subreddit] - with some discussion
-
-* https://news.ycombinator.com/item?id=18318771[Hacker News comments] - with some discussion
+* FILL IN.
