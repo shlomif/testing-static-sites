@@ -21,6 +21,9 @@ The List
 Test that the site builds
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
+https://github.com/shlomif/Freenode-programming-channel-FAQ/blob/master/FAQ_with_ToC__generated.md#what-do-continuous-integration-ci-services-such-as-travis-ci-jenkins-or-appveyor-provide[CI Services],
+https://reproducible-builds.org/ .
+
 Test for valid markup
 ~~~~~~~~~~~~~~~~~~~~~
 
@@ -28,6 +31,8 @@ https://github.com/shlomif/python-vnu_validator , https://www.shlomifish.org/phi
 
 Test for proper spelling and grammar
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+https://hunspell.github.io/ .
 
 Content-based tests
 ~~~~~~~~~~~~~~~~~~~
@@ -53,6 +58,11 @@ Autoformatting / linting
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 https://en.wikipedia.org/wiki/Lint_(software) and https://metacpan.org/pod/distribution/Code-TidyAll/bin/tidyall .
+
+Reproducible builds and getting identical results after a rebuild
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+https://reproducible-builds.org/
 
 [id="coverage"]
 Coverage:
