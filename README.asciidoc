@@ -57,7 +57,7 @@ https://metacpan.org/pod/Test::File::Find::CaseCollide and https://github.com/sh
 Autoformatting / linting
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-https://en.wikipedia.org/wiki/Lint_(software) and https://metacpan.org/pod/distribution/Code-TidyAll/bin/tidyall .
+https://en.wikipedia.org/wiki/Lint_%28software%29 and https://metacpan.org/pod/distribution/Code-TidyAll/bin/tidyall .
 
 Reproducible builds and getting identical results after a rebuild
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
