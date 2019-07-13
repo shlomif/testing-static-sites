@@ -50,4 +50,4 @@ before_install:
 install:
     - gem install asciidoctor
 script:
-    - 'm() { gmake DBTOEPUB="/usr/bin/ruby $(which dbtoepub)" DOCBOOK5_XSL_STYLESHEETS_PATH=/usr/share/xml/docbook/stylesheet/docbook-xsl-ns "$@" } ; m'
+    - bash -x .travis-run-test.bash
