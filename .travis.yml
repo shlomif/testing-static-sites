@@ -49,5 +49,6 @@ before_install:
     - git config --global user.email $HOSTNAME":not-for-mail@travis-ci.org"
 install:
     - gem install asciidoctor
+    - cpanm App::XML::DocBook::Docmake
 script:
     - bash -x .travis-run-test.bash
