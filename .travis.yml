@@ -50,4 +50,4 @@ before_install:
 install:
     - gem install asciidoctor
 script:
-    - make
+    - make DBTOEPUB=dbtoepub
