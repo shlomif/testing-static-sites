@@ -10,6 +10,7 @@ addons:
             - docbook-defguide
             - docbook-xsl
             - docbook-xsl-ns
+            - fop
             - fortune-mod
             - graphicsmagick
             - hunspell
