@@ -37,6 +37,9 @@ pdf: $(PDF)
 clean:
 	rm -f $(DOCBOOK5) $(PDF) $(XHTML)
 
+test: all
+	prove tests/*.t
+
 # MIT License
 #
 # Copyright (c) 2016 Shlomi Fish
