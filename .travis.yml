@@ -52,6 +52,6 @@ install:
     - cpanm local::lib
     - eval "$(perl -Mlocal::lib=$HOME/perl_modules)"
     - gem install asciidoctor
-    - cpanm App::XML::DocBook::Docmake MooX Test::TrailingSpace
+    - cpanm App::XML::DocBook::Docmake MooX MooX::late Test::TrailingSpace
 script:
     - bash -x .travis-run-test.bash
