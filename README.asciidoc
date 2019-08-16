@@ -64,6 +64,13 @@ Reproducible builds and getting identical results after a rebuild
 
 https://reproducible-builds.org/
 
+Tests that verify lack of content differences in before and after a refactoring change
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+E.g: https://github.com/shlomif/shlomif-computer-settings/blob/master/shlomif-settings/Bash/Themes/common/latemp_diff.bash
+and https://github.com/shlomif/fc-solve/blob/master/fc-solve/site/wml/bin/reduce-differences-in-diff-dash-r.bash . See
+https://www.gnu.org/software/diffutils/[GNU diff] with the "-u -r" flags.
+
 [id="coverage"]
 Coverage:
 ---------
