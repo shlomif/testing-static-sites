@@ -16,4 +16,4 @@ qr/(?:(?:\.(?:md|mkdn|markdown|t|pm|pl|PL|yml|json|arc|vim))|README|Changes|LICE
 );
 
 # TEST
-$finder->no_trailing_space( "No trailing space was found." );
+$finder->no_trailing_space("No trailing space was found.");
