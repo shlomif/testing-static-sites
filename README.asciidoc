@@ -21,55 +21,60 @@ The List
 Test that the site builds
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-https://github.com/shlomif/Freenode-programming-channel-FAQ/blob/master/FAQ_with_ToC__generated.md#what-do-continuous-integration-ci-services-such-as-travis-ci-jenkins-or-appveyor-provide[CI Services],
-https://reproducible-builds.org/ .
+* https://github.com/shlomif/Freenode-programming-channel-FAQ/blob/master/FAQ_with_ToC__generated.md#what-do-continuous-integration-ci-services-such-as-travis-ci-jenkins-or-appveyor-provide[Use Continuous Integration (CI) Services].
+* Aim for https://reproducible-builds.org/[reproducible builds] .
 
 Test for valid markup
 ~~~~~~~~~~~~~~~~~~~~~
 
-https://github.com/shlomif/python-vnu_validator , https://www.shlomifish.org/philosophy/computers/web/validate-your-html/ .
+* https://github.com/shlomif/python-vnu_validator
+* https://www.shlomifish.org/philosophy/computers/web/validate-your-html/
 
 Test for proper spelling and grammar
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-https://hunspell.github.io/ .
+* https://hunspell.github.io/[Hunspell]
 
 Content-based tests
 ~~~~~~~~~~~~~~~~~~~
 
-E.g: https://github.com/shlomif/shlomi-fish-homepage/blob/master/Tests/content-fortunes-text.t
+* E.g: https://github.com/shlomif/shlomi-fish-homepage/blob/master/Tests/content-fortunes-text.t
 
 Test for working JavaScript / etc
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-https://github.com/GoogleChrome/puppeteer or node.js
+* https://github.com/GoogleChrome/puppeteer[puppeteer]
+* https://en.wikipedia.org/wiki/Node.js[node.js] - run JavaScript on the command line
 
 Test for broken links
 ~~~~~~~~~~~~~~~~~~~~~
 
-https://wummel.github.io/linkchecker/ , https://metacpan.org/pod/distribution/WWW-LinkChecker-Internal/scripts/link-checker .
+* https://wummel.github.io/linkchecker/
+* https://metacpan.org/pod/distribution/WWW-LinkChecker-Internal/scripts/link-checker
 
 Test for case insensitive filename collissions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-https://metacpan.org/pod/Test::File::Find::CaseCollide and https://github.com/shlomif/cookiecutter--shlomif-latemp-sites/blob/master/%7B%7Bcookiecutter.project_slug%7D%7D/Tests/case-insense-file-collision.t .
+* https://metacpan.org/pod/Test::File::Find::CaseCollide
+* https://github.com/shlomif/cookiecutter--shlomif-latemp-sites/blob/master/%7B%7Bcookiecutter.project_slug%7D%7D/Tests/case-insense-file-collision.t[optimised GNU shell-based script]
 
 Autoformatting / linting
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-https://en.wikipedia.org/wiki/Lint_%28software%29 and https://metacpan.org/pod/distribution/Code-TidyAll/bin/tidyall .
+* https://en.wikipedia.org/wiki/Lint_%28software%29
+* https://metacpan.org/pod/distribution/Code-TidyAll/bin/tidyall[tidyall]
 
 Reproducible builds and getting identical results after a rebuild
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-https://reproducible-builds.org/
+* https://reproducible-builds.org/
 
 Tests that verify lack of content differences in before and after a refactoring change
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-E.g: https://github.com/shlomif/shlomif-computer-settings/blob/master/shlomif-settings/Bash/Themes/common/latemp_diff.bash
-and https://github.com/shlomif/fc-solve/blob/master/fc-solve/site/wml/bin/reduce-differences-in-diff-dash-r.bash . See
-https://www.gnu.org/software/diffutils/[GNU diff] with the "-u -r" flags.
+* E.g: https://github.com/shlomif/shlomif-computer-settings/blob/master/shlomif-settings/Bash/Themes/common/latemp_diff.bash
+and https://github.com/shlomif/fc-solve/blob/master/fc-solve/site/wml/bin/reduce-differences-in-diff-dash-r.bash .
+* See https://www.gnu.org/software/diffutils/[GNU diff] with the "-u -r" flags.
 
 [id="coverage"]
 Coverage:
