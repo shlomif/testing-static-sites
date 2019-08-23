@@ -50,6 +50,7 @@ Test for broken links
 ~~~~~~~~~~~~~~~~~~~~~
 
 * https://wummel.github.io/linkchecker/
+* https://github.com/stevenvachon/broken-link-checker
 * https://metacpan.org/pod/distribution/WWW-LinkChecker-Internal/scripts/link-checker
 
 Test for case insensitive filename collissions
