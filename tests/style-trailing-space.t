@@ -9,7 +9,7 @@ use Test::TrailingSpace ();
 
 my $finder = Test::TrailingSpace->new(
     {
-        root => '.',
+        root           => '.',
         filename_regex =>
 qr/(?:(?:\.(?:md|mkdn|markdown|t|pm|pl|PL|yml|json|arc|vim))|README|Changes|LICENSE|MANIFEST)\z/,
     },
