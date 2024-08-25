@@ -23,6 +23,10 @@ Test that the site builds
 
 * https://github.com/shlomif/Freenode-programming-channel-FAQ/blob/master/FAQ_with_ToC__generated.md#what-do-continuous-integration-ci-services-such-as-travis-ci-jenkins-or-appveyor-provide[Use Continuous Integration (CI) Services].
 * Aim for https://reproducible-builds.org/[reproducible builds] .
+* One can use https://en.wikipedia.org/wiki/Virtual_machine[Virtual
+machines] ( KVM , VMware, Xen, VirtualBox, etc. ) and
+https://en.wikipedia.org/wiki/OS-level_virtualisation[Docker]
+for ascertaining that most of the dependencies were specified.
 
 Test for valid markup
 ~~~~~~~~~~~~~~~~~~~~~
@@ -53,7 +57,7 @@ Test for broken links
 * https://github.com/stevenvachon/broken-link-checker
 * https://metacpan.org/pod/distribution/WWW-LinkChecker-Internal/scripts/link-checker
 
-Test for case insensitive filename collissions
+Test for case-insensitive filename collisions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * https://metacpan.org/pod/Test::File::Find::CaseCollide
